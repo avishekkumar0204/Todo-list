@@ -29,3 +29,10 @@ body{
     overflow: auto;
 }
 
+.fa-circle,.fa-check-circle{
+    padding: 0rem 1rem;
+}
+.fa-trash-alt{
+    float: right;
+}
+
