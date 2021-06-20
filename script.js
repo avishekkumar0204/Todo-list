@@ -26,7 +26,7 @@ btnAdd.addEventListener("click", function () {
 
         newListItem.innerHTML += delBtn;
         delBtn = newListItem.childNodes[1];
-        listGroup.appendChild(newListItem);
+        listGroup.insertAdjacentElement("afterbegin", newListItem);
         delBtn.addEventListener("click", function () {
             listGroup.removeChild(newListItem);
         });
